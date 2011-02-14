@@ -1,0 +1,75 @@
+html,body{height:100%;overflow:hidden;}
+body{font-family:georgia, arial, serif;font-size:14px;background-color:#F5F5F5;}
+a,a:active,a:visited{color:#d30020;text-decoration:none;}
+a:hover{text-decoration:underline;}
+p a:hover{text-decoration:underline;}
+h2{font-size:40px;border-bottom:4px solid #474747;width:300px;margin-bottom:10px;}
+p{font-size:20px;line-height:29px;}
+.draganddrop *[draggable=true]{-moz-user-select:none;-khtml-user-drag:element;cursor:move;}
+.no-js #no-js{display:block;}
+#no-js{display:none;}
+.ie #ie-browser{display:block;}
+#ie-browser{display:none;}
+.no-flexbox #update-browser,.no-borderradius #update-browser,.no-csstransforms #update-broser{display:block;}
+#update-browser,.ie #update-browser{display:none;}
+.ie #container,.no-js #container,.no-flexbox #container,.no-borderradius #container,.no-csstransforms #container{display:none;}
+#container{margin:0 auto;height:auto!important;min-height:100%;display:block;}
+header{margin:0 auto;position:relative;-webkit-box-shadow:1px 2px 4px rgba(0, 0, 0, 0.5);-moz-box-shadow:1px 2px 4px rgba(0, 0, 0, 0.5);-box-shadow:1px 2px 4px rgba(0, 0, 0, 0.5);padding:5px;background:#33373C;filter:alpha(opacity=[object Object]);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";-moz-opacity:0.95;-khtml-opacity:0.95;opacity:0.95;z-index:200;border-top:2px solid #1c1b1b;}header nav{padding:5px 0 12px;margin:0 auto;width:840px;}header nav ul{list-style:none;display:-moz-box;display:-webkit-box;display:box;width:650px;}header nav ul li{-moz-box-flex:1;-webkit-box-flex:1;box-flex:1;padding-right:30px;width:auto;}
+header nav ul a,header nav ul a:active,header nav ul a:visited{color:#fff;text-shadow:2px 2px 0px #050607;padding-bottom:5px;font-size:19px;font-weight:bold;}
+header nav ul a#special,header nav ul a#special:active,header nav ul a#special:visited,header nav ul a#special:hover{color:#d30020;border:none;text-shadow:0 0 0 #000000;}
+header nav ul a.active,header nav ul a:hover.active{text-shadow:none;border-bottom:2px solid #d30020;cursor:default;}
+header nav ul a:hover{text-decoration:none;border-bottom:2px solid #fff;}
+header:after{content:'';position:absolute;z-index:-1;-webkit-box-shadow:0 8px 10px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 8px 10px rgba(0, 0, 0, 0.3);-box-shadow:0 8px 10px rgba(0, 0, 0, 0.3);width:840px;left:1%;width:98%;height:20px;bottom:0;}
+#main{position:relative;width:840px;margin:0 auto;}
+#home-container{display:-moz-box;display:-webkit-box;display:box;position:relative;}#home-container aside{width:400px;font-size:18px;}#home-container aside h2{width:400px;margin-bottom:15px;font-size:12px;}
+#home-container aside h2 span{font-size:40px;}
+#home-container aside h2:hover:after{content:'drop me on the logo';}
+#home-container aside smalll{font-size:5px;}
+#home-container aside p{padding-bottom:10px;}
+section{width:840px;height:400px;position:absolute;margin:40px 0 0;overflow:hidden;}section h2{margin:0;}
+section ul{list-style:none;margin:0;height:300px;overflow:hidden;}
+section .time{font-size:14px;color:#8C8989;}
+section .simply-scroll-container{position:relative;}
+section .simply-scroll-clip{position:relative;overflow:hidden;z-index:2;}
+section .simply-scroll-list{position:absolute;top:0;left:0;z-index:1;overflow:hidden;margin:0;padding:0;list-style:none;}
+section .simply-scroll-list li{padding:0;margin:0;list-style:none;}
+section .vert{width:840px;height:400px;}
+section .vert .simply-scroll-clip{width:800px;height:400px;}
+section .vert .simply-scroll-list li{width:840px;height:auto;border-bottom:1px solid #E0D0D0;padding:12px 30px 10px 0;font-size:16px;}
+section .flickr{margin-left:46px;width:776px;height:150px;margin-bottom:1em;border-right:3px solid #474747;}section .flickr a{border-left:1px solid #F5F5F5;height:150px;}
+section .flickr a.stacked img{filter:alpha(opacity=[object Object]);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";-moz-opacity:0.5;-khtml-opacity:0.5;opacity:0.5;}
+section .flickr .simply-scroll-clip{width:776px;height:150px;}
+section .flickr .simply-scroll-list li{float:left;width:200px;border-right:10px solid #F5F5F5;overflow:hidden;height:150px;}
+section .flickr img{border:none;display:block;min-width:200px;min-height:150px;margin-top:-29px;}
+section#twitter{top:-1000px;left:-1000px;border-bottom:3px solid #474747;}
+section#news{top:-1000px;left:1000px;border-bottom:3px solid #474747;}
+section#flickr{top:1000px;left:-1000px;overflow:visible;}section#flickr h2{-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);position:absolute;top:47px;left:-56px;width:151px;}
+section#flickr #stack-wrapper{width:100%;height:239px;position:absolute;top:160px;}
+section#flickr #stack{position:relative;}
+section#flickr #stack li{position:absolute;padding:5px 5px 30px;max-height:150px;list-style:none;background:#fff;z-index:1;top:70px;left:0;-webkit-box-shadow:0 2px 2px #000000;-moz-box-shadow:0 2px 2px #000000;-box-shadow:0 2px 2px #000000;-webkit-transition:all 0.2s ease-in-out;}
+section#flickr #stack img{height:150px;-webkit-transition:all 0.4s ease-in-out;}
+section#flickr #stack div{overflow:hidden;height:20px;}
+section#flickr #stack div span{width:auto;}
+section#flickr #stack a.rotate-lk{position:absolute;top:10px;left:10px;background:url(../images/rotate.png) no-repeat;width:20px;height:20px;display:none;}
+section#flickr #stack li.dblClick{max-height:300px;-webkit-box-shadow:5px 8px 20px #000000;-moz-box-shadow:5px 8px 20px #000000;-box-shadow:5px 8px 20px #000000;}
+section#flickr #stack li.dblClick img{height:300px;}
+section#facebook{top:1000px;left:1000px;border-bottom:3px solid #474747;}
+#flint-logo{width:400px;height:400px;overflow:hidden;background-color:#d30020;-moz-border-radius:200px;-webkit-border-radius:200px;border-radius:200px;-khtml-border-radius:200px;position:relative;-moz-box-flex:1;-webkit-box-flex:1;box-flex:1;margin-left:40px;}#flint-logo .element-wrapper{top:70px;left:70px;width:130px;height:130px;overflow:hidden;position:relative;display:block;}
+#flint-logo .element{position:absolute;background-color:#fff;-moz-border-radius:65px;-webkit-border-radius:65px;border-radius:65px;-khtml-border-radius:65px;width:130px;height:130px;}
+#flint-logo .element-wrapper .element{top:-130px;left:-130px;-moz-border-radius:130px;-webkit-border-radius:130px;border-radius:130px;-khtml-border-radius:130px;width:260px;height:260px;}
+#flint-logo a:hover .element{background-color:#fff;}
+#flint-logo a#first-element.hover .element{background:#3dc7f4;}
+#flint-logo a#second-element .element{top:70px;left:202px;background-position:0px 0px;}
+#flint-logo a#second-element.hover .element{background-color:#ff7b00;}
+#flint-logo a#third-element.hover .element{background-color:#ff007f;}
+#flint-logo a#fourth-element{left:200px;top:-60px;}
+#flint-logo a#fourth-element.hover .element{background:#2d569c url(../images/fadsfcebook.png) no-repeat 120px 120px;}
+#flint-logo p{color:#fff;padding:80px 40px;text-align:center;margin:auto 0;}
+#flint-logo a{color:#fff;text-decoration:underline;font-weight:bold;}
+#flint-logo h2 span{font-size:30px;}
+footer{position:fixed;left:0;bottom:0;height:45px;width:100%;background:#33373C;border-top:4px solid #6C7279;z-index:200;margin-top:-250px;}footer div#footer-container{width:840px;margin:0 auto;}
+footer ul{list-style:none;margin:7px 0 0;display:-moz-box;display:-webkit-box;display:box;}footer ul li{margin-right:40px;-moz-box-flex:1;-webkit-box-flex:1;box-flex:1;}footer ul li a,footer ul li a:active,footer ul li a:visited{text-shadow:0 1px 0 #3B4045;padding:3px 20px 2px 35px;display:block;border:3px solid #3B4045;background:#6c7279 url(../images/icons/twitter.png) no-repeat -2px -2px;font-size:16px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-khtml-border-radius:5px;font-weight:bold;text-transform:uppercase;filter:alpha(opacity=[object Object]);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";-moz-opacity:0.3;-khtml-opacity:0.3;opacity:0.3;color:#fff;}
+footer ul li a:hover{text-decoration:none;}
+footer ul li a.facebook-link{background-image:url(../images/icons/facebook.png);}
+footer ul li a.flickr-link{background-image:url(../images/icons/flickr.png);}
+footer ul li a.news-link{background-image:url(../images/icons/news.png);}

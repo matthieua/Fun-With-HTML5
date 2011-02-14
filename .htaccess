@@ -1,0 +1,7 @@
+RewriteEngine on
+Redirect /~matthieua/workspace/Experimentation/flickr /~matthieua/workspace/Experimentation/
+Redirect /~matthieua/workspace/Experimentation/facebook /~matthieua/workspace/Experimentation/
+Redirect /~matthieua/workspace/Experimentation/news /~matthieua/workspace/Experimentation/
+Redirect /~matthieua/workspace/Experimentation/twitter /~matthieua/workspace/Experimentation/
+Redirect /~matthieua/workspace/Experimentation/facebook /~matthieua/workspace/Experimentation/
+Redirect /~matthieua/workspace/Experimentation/home /~matthieua/workspace/Experimentation/
